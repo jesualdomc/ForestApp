@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/nav_canaguate"
+    android:layout_marginRight="-20dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:src="@drawable/forestapp3"
+        android:id="@+id/imageView"
+        android:layout_marginTop="98dp"
+        android:layout_marginLeft="-35dp"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

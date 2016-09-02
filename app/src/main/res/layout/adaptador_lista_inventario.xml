@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:id="@+id/iv_imagen" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Nombre"
+                    android:id="@+id/tv_titulo_arbol"
+                    android:textColor="#ff000000"
+                    android:visibility="visible"
+                    android:textStyle="bold"
+                    android:layout_weight="0.97"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Nombre cientifico"
+                    android:id="@+id/tv_nombre_cientifico"
+                    android:textColor="#ff000000"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:visibility="visible"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reino:"
+                    android:textColor="#ff000000"
+                    android:visibility="visible"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reino..."
+                    android:id="@+id/tv_reino"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Filo:"
+                    android:textColor="#ff000000"
+                    android:visibility="visible"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Filo..."
+                    android:id="@+id/tv_filo"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clase:"
+                    android:textColor="#ff000000"
+                    android:visibility="visible"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clase..."
+                    android:id="@+id/tv_clase"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fruto:"
+                    android:textColor="#ff000000"
+                    android:visibility="visible"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fruto..."
+                    android:id="@+id/tv_fruto"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flor:"
+                    android:textColor="#ff000000"
+                    android:visibility="visible"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flor..."
+                    android:id="@+id/tv_flor"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/descripcion"
+                android:id="@+id/tv_contenido_arbol"
+                android:layout_margin="5dp"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:layout_weight="18.80" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

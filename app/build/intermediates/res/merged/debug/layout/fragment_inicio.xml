@@ -1,0 +1,133 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="v1.forestapp.com.forestapp.InicioFragment">
+
+
+    <ViewFlipper
+        android:id="@+id/bckgrndViewFlipper1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/bckgrndImageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/canaguate2"/>
+
+        <ImageView
+            android:id="@+id/bckgrndImageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/canaguate1"/>
+        <ImageView
+            android:id="@+id/bckgrndImageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pino2"/>
+
+        <ImageView
+            android:id="@+id/bckgrndImageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/arbolmango"/>
+
+
+    </ViewFlipper>
+
+    <TableRow android:layout_height="92dp"
+        android:layout_width="match_parent"
+        android:stretchColumns="2"
+        android:layout_gravity="center_vertical"
+        android:weightSum="1">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     Noticias       "
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="120dp"
+            android:background="#345065"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="@dimen/fab_margin"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/mundial"
+        android:layout_weight="1"
+        android:textColor="@color/textoColor"
+        android:id="@+id/btn_new"
+        android:layout_gravity="right|center_vertical"
+        android:layout_column="13"
+        android:nestedScrollingEnabled="false"
+        />
+
+    <TableRow
+        android:layout_height="92dp"
+        android:layout_width="match_parent"
+        android:stretchColumns="2"
+        android:weightSum="1">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="    Inventario   "
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="120dp"
+            android:background="#345065"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="@dimen/fab_margin"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/portapapeles"
+        android:layout_weight="1"
+        android:textColor="@color/textoColor"
+        android:id="@+id/btn_inventario"
+        android:layout_gravity="right|top"
+        android:layout_column="13" />
+
+    <TableRow
+        android:layout_height="92dp"
+        android:layout_width="match_parent"
+        android:stretchColumns="2"
+        android:layout_gravity="center_vertical|bottom">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Escáner QR   "
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="120dp"
+            android:background="#345065"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+    </TableRow>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:padding="@dimen/fab_margin"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/obturador"
+        android:textColor="@color/textoColor"
+        android:id="@+id/btn_qr"
+        android:layout_gravity="right|bottom" />
+
+</FrameLayout>
