@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:background="@drawable/post_border_style"
+        android:background="@color/colorPrimaryDark"
         android:orientation="vertical" >
 
         <LinearLayout
@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:background="@drawable/post_background_style"
+            android:background="@color/colorPrimary"
             android:orientation="horizontal" >
 
             <LinearLayout
@@ -64,7 +64,7 @@
                         android:text="El árbol de mango es la mayor arbolización en Valledupar. "
                         android:id="@+id/textSubTitulo"
                         android:layout_marginLeft="5dp"
-                        android:textColor="#ff868686" />
+                        android:textColor="#FFFFFF" />
 
                 </LinearLayout>
 
@@ -76,7 +76,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:background="@drawable/post_border_style"
+        android:background="@color/colorPrimaryDark"
         android:orientation="vertical" >
 
         <LinearLayout
@@ -84,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:background="@drawable/post_background_style"
+            android:background="@color/colorPrimary"
             android:orientation="horizontal" >
 
             <LinearLayout
@@ -130,7 +130,7 @@
                         android:text="El cañaguate cuando florece, los cerros de Valledupar se tornan amarillos gracias a los cañaguates florecidos."
                         android:id="@+id/textView6"
                         android:layout_marginLeft="5dp"
-                        android:textColor="#ff868686" />
+                        android:textColor="#FFFFFF" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
@@ -140,7 +140,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:background="@drawable/post_border_style"
+        android:background="@color/colorPrimaryDark"
         android:orientation="vertical"
         android:layout_gravity="center_horizontal">
 
@@ -149,7 +149,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="2dp"
-            android:background="@drawable/post_background_style"
+            android:background="@color/colorPrimary"
             android:orientation="horizontal" >
 
             <LinearLayout
@@ -195,7 +195,7 @@
                         android:text="El fruto del arbol achote, sirve como colorante para comidas. "
                         android:id="@+id/textView8"
                         android:layout_marginLeft="5dp"
-                        android:textColor="#ff868686" />
+                        android:textColor="#ffffff" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Admin_Sena\Downloads\ForestApp-master\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\Admin_Sena\Downloads\ForestApp-master\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\PC-RAMIREZ\AndroidStudioProjects\ForestApp_full\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\PC-RAMIREZ\AndroidStudioProjects\ForestApp_full\app\src\debug\shaders"/></dataSet></merger>
