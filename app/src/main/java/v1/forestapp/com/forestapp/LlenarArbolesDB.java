@@ -81,6 +81,30 @@ public class LlenarArbolesDB {
             e.setFlor("Flor amarilla o blanca");
             e.setDescripcion("La Uvita o Cordia alba es un árbol caducifolio del género Cordia en la familia de Boraginaceae. La especie es nativa de América Central. Poseen este nombre por que poseen pequeños dientes en el borde de sus hojas las cuales son una continuación de los nervios secundarios. Se le da el uso como fuente de alimento, y debido a la calidad de su madera puede ser posible la fabricación de muchos objetos. Tiene presencia en muchos países de Centroamérica y algunos países de Sudaméricanos, especialmente en terrenos secos o recientemente inundados. Es muy popular en la ciudad de Barranquilla, Colombia.");
             manager.InsertarArboles(e);
+
+            ArbolDTO f = new ArbolDTO();
+            f.setImagen(R.drawable.primavera);
+            f.setNombreComun("Primavera");
+            f.setNombreCientifico("Bougainvillea glabra");
+            f.setReino("Plantae");
+            f.setFilo("Magnoliophyta");
+            f.setClase("Magnoliopsida");
+            f.setFruto("No contiene");
+            f.setFlor("Flor rosada");
+            f.setDescripcion("Tiene hojas verdes brillantes, ligeramente pilosas o glabras, y de brácteas color magenta, las hojas caducifolias (hojas caedizas).Es una planta perenne, trepadora, leñosa, que alcanza hasta 10 m de altura. Sus Flores son muy pequeñas, blancas, en grupos con brácteas coloridas papilosas. Se dispone de variedades de sola o doble flor. El tronco leñoso tiende a enroscarse, y las delgadas ramas tienen afiladas espinas y hojas verde oscuras. Es muy buena para setos, arcos, o arbusto en la tierra, y en macetas. Es ideal para bonsái.");
+            manager.InsertarArboles(f);
+
+            ArbolDTO g = new ArbolDTO();
+            g.setImagen(R.drawable.palmabotella);
+            g.setNombreComun("Palma Botella");
+            g.setNombreCientifico("Hyophorbe lagenicaulis");
+            g.setReino("Plantae");
+            g.setFilo("Magnoliophyta");
+            g.setClase("Liliopsida");
+            g.setFruto("No especificado");
+            g.setFlor("No especificado");
+            g.setDescripcion("Es una especie que tiene una gran tronco hinchado (a veces extrañamente). Es un mito que el tronco es un medio por el cual la planta almacena el agua. Sólo tiene cuatro a seis hojas abiertas al mismo tiempo. Las flores surgen de debajo del capitel. Las palmas de botella son muy sensibles al frío y mueren a los 0 ° C. o menos si lo soportan en un tiempo apreciable. Pueden sobrevivir a una helada breve, pero podrían tener daños en el follaje. Sólo el sur de la Florida ofrece un lugar seguro en los EE.UU. para crecer esta especie.");
+            manager.InsertarArboles(g);
         }
     }
 }

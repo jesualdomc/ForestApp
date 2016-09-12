@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\PC-RAMIREZ\\AndroidStudioProjects\\ForestApp_full\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "C:\\Users\\Jesualdo Martinez\\AndroidStudioProjects\\ForestApp_\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "C:\\Users\\PC-RAMIREZ\\AndroidStudioProjects\\ForestApp_full\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "C:\\Users\\Jesualdo Martinez\\AndroidStudioProjects\\ForestApp_\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "C:\\Users\\PC-RAMIREZ\\AndroidStudioProjects\\ForestApp_full\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "C:\\Users\\Jesualdo Martinez\\AndroidStudioProjects\\ForestApp_\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 206
                 },
                 "from": {
-                    "file": "C:\\Users\\PC-RAMIREZ\\AndroidStudioProjects\\ForestApp_full\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "C:\\Users\\Jesualdo Martinez\\AndroidStudioProjects\\ForestApp_\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

@@ -53,7 +53,7 @@
             android:textColor="#FFFFFF"
             android:layout_gravity="center_vertical|right"
             android:layout_marginLeft="120dp"
-            android:background="#345065"
+            android:background="#2B845B"
             android:textStyle="bold" />
 
     </TableRow>
@@ -63,7 +63,7 @@
         android:layout_height="70dp"
         android:padding="@dimen/fab_margin"
         android:layout_margin="@dimen/activity_horizontal_margin"
-        android:background="@drawable/mundial"
+        android:background="@drawable/world"
         android:layout_weight="1"
         android:textColor="@color/textoColor"
         android:id="@+id/btn_new"
@@ -85,7 +85,7 @@
             android:textColor="#FFFFFF"
             android:layout_gravity="center_vertical|right"
             android:layout_marginLeft="120dp"
-            android:background="#345065"
+            android:background="#2B845B"
             android:textStyle="bold" />
     </TableRow>
 
@@ -94,7 +94,7 @@
         android:layout_height="70dp"
         android:padding="@dimen/fab_margin"
         android:layout_margin="@dimen/activity_horizontal_margin"
-        android:background="@drawable/portapapeles"
+        android:background="@drawable/inventary"
         android:layout_weight="1"
         android:textColor="@color/textoColor"
         android:id="@+id/btn_inventario"
@@ -114,7 +114,7 @@
             android:textColor="#FFFFFF"
             android:layout_gravity="center_vertical|right"
             android:layout_marginLeft="120dp"
-            android:background="#345065"
+            android:background="#2B845B"
             android:textStyle="bold"
             android:textAlignment="center" />
 
@@ -125,7 +125,7 @@
         android:layout_height="70dp"
         android:padding="@dimen/fab_margin"
         android:layout_margin="@dimen/activity_horizontal_margin"
-        android:background="@drawable/obturador"
+        android:background="@drawable/escanerqr"
         android:textColor="@color/textoColor"
         android:id="@+id/btn_qr"
         android:layout_gravity="right|bottom" />

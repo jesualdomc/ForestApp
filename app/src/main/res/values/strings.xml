@@ -67,16 +67,15 @@
     <string name="slide_2_desc">A través del escáner puedes obtener toda la información sobre un árbol!</string>
 
     <string name="slide_3_title">Inventario</string>
-    <string name="slide_3_desc">También puedes acceder a nuestro sistema de inventarios de arboles!</string>
+    <string name="slide_3_desc">También puedes acceder a nuestro sistema de inventario de árboles!</string>
 
     <string name="slide_4_title">Noticias</string>
     <string name="slide_4_desc">Tambien puedes enterarte de las noticias actuales en la ciudad de Valledupar!</string>
 
     <string name="slide_5_title">Sabias que?</string>
-    <string name="slide_5_desc">Tambien puedes enterarte de las noticias actuales en la ciudad de Valledupar!</string>
+    <string name="slide_5_desc">Podrás enterarte de curiosidades de los árboles de la ciudad de Valledupar!</string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
-
 
 </resources>

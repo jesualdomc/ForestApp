@@ -55,8 +55,12 @@ public class PrincipalActivity extends AppCompatActivity
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
-            super.onBackPressed();
+            Fragment fragmento = new InicioFragment();;
+            FragmentManager fragmentManager = getFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.content_frame, fragmento).commit();
+            //super.onBackPressed();
         }
+
     }
 
 
