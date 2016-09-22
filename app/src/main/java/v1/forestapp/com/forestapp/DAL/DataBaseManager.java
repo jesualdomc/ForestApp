@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteDatabase;
 import java.util.ArrayList;
 
 import v1.forestapp.com.forestapp.DTO.ArbolDTO;
+import v1.forestapp.com.forestapp.DTO.SabiasDTO;
 
 public class DataBaseManager {
     private AdminSQLiteOpenHelper helper;
@@ -25,7 +26,6 @@ public class DataBaseManager {
     public static  final String TABLA_1_CAMPO_8="Flor";
     public static  final String TABLA_1_CAMPO_9="Descripcion";
     public static  final String TABLA_1_CAMPO_10="Imagen";
-
 
     public static  final String CREATE_TABLE_1 = "create table " + TABLA_1 + " ("
 
@@ -126,4 +126,76 @@ public class DataBaseManager {
     }
 
     ///////////////////////////////////////////////////////////////////////////////////
+
+    //---------------------------------- TABLA 2 --------------------------------------------
+    public  static final String TABLA_2="Sabias"; //Nombre de la tabla
+
+    public static final String TABLA_2_CAMPO_1="Nombre";
+    public static final String TABLA_2_CAMPO_2="Descripcion";
+    public static final String TABLA_2_CAMPO_3="Imagen";
+
+    public static  final String CREATE_TABLE_2 = "create table " + TABLA_2 + " ("
+
+            + TABLA_2_CAMPO_1 + " text not null, "
+            + TABLA_2_CAMPO_2 + " text not null, "
+            + TABLA_2_CAMPO_3 + " integer); ";
+
+    private ContentValues GenerarContentValuesSabias(SabiasDTO m) {
+        ContentValues valores = new ContentValues();
+        valores.put(TABLA_2_CAMPO_1, m.getNombre());
+        valores.put(TABLA_2_CAMPO_2, m.getDescripcion());
+        valores.put(TABLA_2_CAMPO_3, m.getImagen());
+        return valores;
+    }
+
+    public void InsertarSabias(SabiasDTO m) {
+        db.insert(TABLA_2, null, GenerarContentValuesSabias(m));
+    }
+
+    public void ActualizarSabias (SabiasDTO m, String nombre){
+        ContentValues valores = new ContentValues();
+        valores.put(TABLA_2_CAMPO_1, m.getNombre());
+        valores.put(TABLA_2_CAMPO_2, m.getDescripcion());
+        valores.put(TABLA_2_CAMPO_3, m.getImagen());
+
+        db.update(TABLA_2, valores,TABLA_2_CAMPO_1 +  " = " + nombre, null);
+    }
+
+    public void EliminarSabias (String nombre) {
+        db.delete(TABLA_2, TABLA_2_CAMPO_1 + " = " + nombre, null);
+    }
+
+    public SabiasDTO getSabias(String nombre){
+
+        SabiasDTO m = null;
+        Cursor c = db.rawQuery(" SELECT " + TABLA_2_CAMPO_1 + " , "+ TABLA_2_CAMPO_2 + " ,"
+                + TABLA_2_CAMPO_3 + " FROM " + TABLA_2 + " where " + TABLA_2_CAMPO_1 + " = '" + nombre + "'", null);
+        if (c.moveToFirst()) {
+            m = new SabiasDTO();
+            m.setNombre(c.getString(0));
+            m.setDescripcion(c.getString(1));
+            m.setImagen(c.getInt(2));
+        }
+        return m;
+    }
+
+    public ArrayList<SabiasDTO> getListaSabias(){
+        Cursor c = db.rawQuery(" SELECT " + TABLA_2_CAMPO_1 + " , "+ TABLA_2_CAMPO_2+" ,"
+                + TABLA_2_CAMPO_3 + " FROM " + TABLA_2, null);
+        ArrayList<SabiasDTO> Lista = new ArrayList<SabiasDTO>();
+        while (c.moveToNext()){
+            SabiasDTO m = new SabiasDTO();
+            m.setNombre(c.getString(0));
+            m.setDescripcion(c.getString(1));
+            m.setImagen(c.getInt(2));
+            Lista.add(m);
+        }
+        return Lista;
+    }
+
+    public void deleteTodoSabias() {
+        db.execSQL("DELETE FROM " + TABLA_2);
+    }
+
+
 }

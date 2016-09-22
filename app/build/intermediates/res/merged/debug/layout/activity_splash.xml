@@ -10,7 +10,6 @@
     android:weightSum="1">
 
 
-
     <ImageView
         android:id="@+id/logo"
         android:layout_width="280dp"
@@ -19,7 +18,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="180dp"
         android:layout_weight="0.05" />
-
 
 
 </LinearLayout>

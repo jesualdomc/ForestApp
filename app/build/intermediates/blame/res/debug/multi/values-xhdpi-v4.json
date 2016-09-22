@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Jesualdo Martinez\\AndroidStudioProjects\\ForestApp_\\app\\build\\intermediates\\res\\merged\\debug\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+        "outputFile": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "C:\\Users\\Jesualdo Martinez\\AndroidStudioProjects\\ForestApp_\\app\\build\\intermediates\\exploded-aar\\me.dm7.barcodescanner\\core\\1.8.4\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "file": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\exploded-aar\\me.dm7.barcodescanner\\core\\1.8.4\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "C:\\Users\\Jesualdo Martinez\\AndroidStudioProjects\\ForestApp_\\app\\build\\intermediates\\exploded-aar\\me.dm7.barcodescanner\\core\\1.8.4\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+                    "file": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\exploded-aar\\me.dm7.barcodescanner\\core\\1.8.4\\res\\values-xhdpi-v4\\values-xhdpi-v4.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

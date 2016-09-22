@@ -17,6 +17,7 @@ public class PrincipalActivity extends AppCompatActivity
 
     LlenarArbolesDB llenar;
     Context cnt;
+    LlenarSabiasQueDB llenarSabias;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +29,9 @@ public class PrincipalActivity extends AppCompatActivity
         cnt = this;
         llenar = new LlenarArbolesDB();
         llenar.FillGrid(cnt);
+
+        llenarSabias = new LlenarSabiasQueDB();
+        llenarSabias.FillGrid(cnt);
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
