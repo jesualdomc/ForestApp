@@ -68,7 +68,7 @@ public class SabiasQueFragment extends Fragment {
         datos= new ArrayList<SabiasDTO>();
         cnt= getActivity().getApplicationContext();
         manager = new DataBaseManager(cnt);
-        adaptador = new AdaptadorListViewSabias(cnt, R.layout.layout_adaptador_arboles, datos);
+        adaptador = new AdaptadorListViewSabias(cnt, R.layout.layout_adaptador_sabiasque, datos);
 
         listItemSabias = (ListView) vista.findViewById(R.id.listView);
         listItemSabias.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -87,7 +87,7 @@ public class SabiasQueFragment extends Fragment {
         datos.clear();
         datos = manager.getListaSabias();
         if (datos.size() > 0) {
-            adaptador = new AdaptadorListViewSabias(cnt, R.layout.layout_adaptador_arboles, datos);
+            adaptador = new AdaptadorListViewSabias(cnt, R.layout.layout_adaptador_sabiasque, datos);
             listItemSabias.setAdapter(adaptador);
         }
     }

@@ -41,15 +41,14 @@ public class NuevoSabiasQueFragment extends android.app.DialogFragment {
 
         cnt= getActivity().getApplicationContext();
 
-        Nombre = (TextView) v.findViewById(R.id.tv_titulo_arbol);
-        Descripcion = (TextView) v.findViewById(R.id.tv_contenido_arbol);
-        Imagen = (ImageView)v.findViewById(R.id.iv_imagen);
+        Nombre = (TextView) v.findViewById(R.id.titulo_arbol);
+        Descripcion = (TextView) v.findViewById(R.id.contenido_arbol);
+        Imagen = (ImageView)v.findViewById(R.id.imagensabias);
 
         if (Sabias!= null){
             Nombre.setText(Sabias.getNombre().toString());
             Descripcion.setText(Sabias.getDescripcion().toString());
             Imagen.setImageResource(Sabias.getImagen());
-
         }
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());

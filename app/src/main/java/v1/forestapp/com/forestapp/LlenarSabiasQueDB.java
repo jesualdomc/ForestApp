@@ -24,9 +24,15 @@ public class LlenarSabiasQueDB {
             SabiasDTO a = new SabiasDTO();
             a.setImagen(R.drawable.arbolachote);
             a.setNombre("Sabias que?");
-            a.setDescripcion("Desde tiempos pasados esta planta medicinal fue usada para la elaboración de colorantes, así mismo fue usada como especie dentro de la preparación de ciertos platos.\n" +
-                    "Los nombres comunes utilizados son: Achiote, acote, achihuete, saca achote, urcu, annato.");
+            a.setDescripcion("El fruto del árbol achoite, sirve como colorante para comidas.");
             manager.InsertarSabias(a);
+
+            SabiasDTO b = new SabiasDTO();
+            b.setImagen(R.drawable.arbolmango);
+            b.setNombre("Sabias que?");
+            b.setDescripcion("adsgdthffdhfhhft");
+            manager.InsertarSabias(b);
+
         }
     }
 }

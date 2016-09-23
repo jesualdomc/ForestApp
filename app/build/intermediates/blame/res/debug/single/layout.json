@@ -60,6 +60,10 @@
         "source": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\src\\main\\res\\layout\\fragment_sabias_que.xml"
     },
     {
+        "merged": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_adaptador_sabiasque.xml",
+        "source": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\src\\main\\res\\layout\\layout_adaptador_sabiasque.xml"
+    },
+    {
         "merged": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\layout\\design_navigation_item_subheader.xml"
     },
@@ -184,12 +188,12 @@
         "source": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
         "merged": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lista_inventario.xml",
         "source": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\src\\main\\res\\layout\\activity_lista_inventario.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\24.2.0\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "C:\\Users\\Admin_Sena\\AndroidStudioProjects\\ForestApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qr.xml",
