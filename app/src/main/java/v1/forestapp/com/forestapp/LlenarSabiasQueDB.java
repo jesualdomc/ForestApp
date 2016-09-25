@@ -39,6 +39,12 @@ public class LlenarSabiasQueDB {
             c.setDescripcion("El cañaguate cuando florece, los cerros de Valledupar se tornan amarillos gracias a los cañaguates florecidos.");
             manager.InsertarSabias(c);
 
+            SabiasDTO d = new SabiasDTO();
+            d.setImagen(R.drawable.arboluvitablanca);
+            d.setNombre("Sabias que?");
+            d.setDescripcion("El fruto de este arbol, sirve para pegante de muchas cosas.");
+            manager.InsertarSabias(d);
+
         }
     }
 }

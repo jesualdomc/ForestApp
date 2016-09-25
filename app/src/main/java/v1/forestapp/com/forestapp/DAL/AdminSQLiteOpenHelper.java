@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
 
     private  static  final String DB_NAME ="Arboles";
-    private  static  final int DB_SCHEME_VERSION=17;
+    private  static  final int DB_SCHEME_VERSION=22;
 
     public AdminSQLiteOpenHelper(Context context) {
         super(context, DB_NAME,null, DB_SCHEME_VERSION);

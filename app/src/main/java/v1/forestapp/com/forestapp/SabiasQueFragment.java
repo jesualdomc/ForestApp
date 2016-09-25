@@ -1,10 +1,10 @@
 package v1.forestapp.com.forestapp;
 
 
+import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
 import android.os.Bundle;
-import android.app.Fragment;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.widget.SearchView;
 import android.view.LayoutInflater;
@@ -18,10 +18,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import v1.forestapp.com.forestapp.Adaptadores.AdaptadorListViewArboles;
 import v1.forestapp.com.forestapp.Adaptadores.AdaptadorListViewSabias;
 import v1.forestapp.com.forestapp.DAL.DataBaseManager;
-import v1.forestapp.com.forestapp.DTO.ArbolDTO;
 import v1.forestapp.com.forestapp.DTO.SabiasDTO;
 
 
@@ -63,7 +61,7 @@ public class SabiasQueFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View vista = inflater.inflate(R.layout.fragment_lista_inventario, container, false);
+        final View vista = inflater.inflate(R.layout.fragment_lista_sabias, container, false);
 
         datos= new ArrayList<SabiasDTO>();
         cnt= getActivity().getApplicationContext();
@@ -74,8 +72,8 @@ public class SabiasQueFragment extends Fragment {
         listItemSabias.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                TextView Nombre = (TextView)view.findViewById(R.id.txtNombre);
-                SabiasDTO Sabias = manager.getSabias(Nombre.getText().toString());
+                TextView Descripcion = (TextView)view.findViewById(R.id.txtDescripcion);
+                SabiasDTO Sabias = manager.getSabias(Descripcion.getText().toString());
                 MostrarDialog(Sabias);
             }
         });

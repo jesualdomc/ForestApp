@@ -36,7 +36,7 @@ public class InicioFragment extends Fragment {
             {
                 // do something
                 try {
-                    NoticiasFragment Frag = new NoticiasFragment();
+                    NoticiaCardwFragment Frag = new NoticiaCardwFragment();
                     getActivity().getFragmentManager().beginTransaction().replace(R.id.content_frame,Frag).commit();
                 }catch (Exception ex){
                     Snackbar.make(container,"Error : " + ex.getMessage() ,Snackbar.LENGTH_LONG).show();
