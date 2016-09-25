@@ -30,8 +30,14 @@ public class LlenarSabiasQueDB {
             SabiasDTO b = new SabiasDTO();
             b.setImagen(R.drawable.arbolmango);
             b.setNombre("Sabias que?");
-            b.setDescripcion("adsgdthffdhfhhft");
+            b.setDescripcion("El árbol de mango es la mayor arbolización en Valledupar.");
             manager.InsertarSabias(b);
+
+            SabiasDTO c = new SabiasDTO();
+            c.setImagen(R.drawable.canaguate);
+            c.setNombre("Sabias que?");
+            c.setDescripcion("El cañaguate cuando florece, los cerros de Valledupar se tornan amarillos gracias a los cañaguates florecidos.");
+            manager.InsertarSabias(c);
 
         }
     }

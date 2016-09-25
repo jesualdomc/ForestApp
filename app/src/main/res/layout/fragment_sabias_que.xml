@@ -61,7 +61,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:text="El árbol de mango es la mayor arbolización en Valledupar. "
+                        android:text="El árbol de mango es la mayor arbolización en Valledupar."
                         android:id="@+id/textSubTitulo"
                         android:layout_marginLeft="5dp"
                         android:textColor="#FFFFFF" />

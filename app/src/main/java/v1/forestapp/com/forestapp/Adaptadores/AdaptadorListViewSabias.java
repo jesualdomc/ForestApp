@@ -46,7 +46,7 @@ public class AdaptadorListViewSabias extends ArrayAdapter<SabiasDTO> {
 
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        AdaptadorListViewSabias.ViewHolder holder = null;
+        ViewHolder holder = null;
         SabiasDTO rowItem = getItem(position);
 
         LayoutInflater inflater = LayoutInflater.from(getContext());
@@ -54,13 +54,13 @@ public class AdaptadorListViewSabias extends ArrayAdapter<SabiasDTO> {
 
         if (convertView == null) {
             convertView = inflater.inflate(layout_list, null);
-            holder = new AdaptadorListViewSabias.ViewHolder();
+            holder = new ViewHolder();
             holder.txtNombre = (TextView) convertView.findViewById(R.id.txtNombre);
             holder.txtDescripcion = (TextView) convertView.findViewById(R.id.txtDescripcion);
             holder.Imagen = (CircleImageView) convertView.findViewById(R.id.itemImage);
             convertView.setTag(holder);
         } else
-            holder = (AdaptadorListViewSabias.ViewHolder) convertView.getTag();
+            holder = (ViewHolder) convertView.getTag();
         holder.txtNombre.setText(rowItem.getNombre());
         holder.txtDescripcion.setText(rowItem.getDescripcion());
         holder.Imagen.setImageResource(rowItem.getImagen());

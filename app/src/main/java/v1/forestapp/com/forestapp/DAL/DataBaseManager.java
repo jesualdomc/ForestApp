@@ -39,10 +39,6 @@ public class DataBaseManager {
             + TABLA_1_CAMPO_9 + " text not null, "
             + TABLA_1_CAMPO_10 + " integer); ";
 
-    public DataBaseManager(Context context) {
-        helper = new AdminSQLiteOpenHelper(context);
-        db = helper.getWritableDatabase();
-    }
 
 
     private ContentValues GenerarContentValuesArboles(ArbolDTO m) {
@@ -140,6 +136,11 @@ public class DataBaseManager {
             + TABLA_2_CAMPO_2 + " text not null, "
             + TABLA_2_CAMPO_3 + " integer); ";
 
+    public DataBaseManager(Context context) {
+        helper = new AdminSQLiteOpenHelper(context);
+        db = helper.getWritableDatabase();
+    }
+
     private ContentValues GenerarContentValuesSabias(SabiasDTO m) {
         ContentValues valores = new ContentValues();
         valores.put(TABLA_2_CAMPO_1, m.getNombre());
@@ -156,7 +157,6 @@ public class DataBaseManager {
         ContentValues valores = new ContentValues();
         valores.put(TABLA_2_CAMPO_1, m.getNombre());
         valores.put(TABLA_2_CAMPO_2, m.getDescripcion());
-        valores.put(TABLA_2_CAMPO_3, m.getImagen());
 
         db.update(TABLA_2, valores,TABLA_2_CAMPO_1 +  " = " + nombre, null);
     }
@@ -169,7 +169,7 @@ public class DataBaseManager {
 
         SabiasDTO m = null;
         Cursor c = db.rawQuery(" SELECT " + TABLA_2_CAMPO_1 + " , "+ TABLA_2_CAMPO_2 + " ,"
-                + TABLA_2_CAMPO_3 + " FROM " + TABLA_2 + " where " + TABLA_2_CAMPO_1 + " = '" + nombre + "'", null);
+                + TABLA_2_CAMPO_3 + " FROM " + TABLA_2 + " where " + TABLA_2_CAMPO_2 + " = '" + nombre + "'", null);
         if (c.moveToFirst()) {
             m = new SabiasDTO();
             m.setNombre(c.getString(0));

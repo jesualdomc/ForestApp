@@ -1,4 +1,4 @@
-package v1.forestapp.com.forestapp;
+package v1.forestapp.com.forestapp.Noticias;
 
 
 import android.app.Fragment;
@@ -9,14 +9,16 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import v1.forestapp.com.forestapp.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class NoticiasFragment extends Fragment {
+public class NoticiasFragment3 extends Fragment {
     WebView webView;
 
-    public NoticiasFragment() {
+    public NoticiasFragment3() {
         // Required empty public constructor
     }
 
@@ -26,7 +28,7 @@ public class NoticiasFragment extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_noticias, container, false);
         webView = (WebView)v.findViewById(R.id.mi_navegador);
-        webView.loadUrl("http://elpilon.com.co/");
+        webView.loadUrl("http://semanariolacalle.com/");
 
         webView.setWebViewClient(new WebViewClient()
         {

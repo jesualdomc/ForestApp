@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="v1.forestapp.com.forestapp.QRFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="63dp"
+        android:layout_height="54dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Presione el botón para el Scanner"
+        android:id="@+id/textView"
+        android:textColor="@color/textoColor"
+
+        android:layout_gravity="center"
+        android:gravity="center_horizontal" />
+
+
+
+
+</FrameLayout>

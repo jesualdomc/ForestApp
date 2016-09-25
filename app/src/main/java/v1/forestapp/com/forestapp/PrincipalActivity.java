@@ -30,6 +30,7 @@ public class PrincipalActivity extends AppCompatActivity
         llenar = new LlenarArbolesDB();
         llenar.FillGrid(cnt);
 
+        cnt = this;
         llenarSabias = new LlenarSabiasQueDB();
         llenarSabias.FillGrid(cnt);
 
@@ -91,7 +92,7 @@ public class PrincipalActivity extends AppCompatActivity
         }
 
         else if (id == R.id.mi_navegador) {
-            fragmento = new NoticiasFragment();
+            fragmento = new NoticiaCardwFragment();
             fragmentTransaction = true;
         }if (fragmentTransaction) {
             fragmentManager.beginTransaction()

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="v1.forestapp.com.forestapp.SplashActivity"
+    android:background="@drawable/fondoforest"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="280dp"
+        android:layout_height="105dp"
+        android:background="@drawable/splash"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp"
+        android:layout_weight="0.05" />
+
+
+</LinearLayout>
