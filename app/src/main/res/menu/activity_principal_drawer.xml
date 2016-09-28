@@ -15,6 +15,10 @@
             android:icon="@drawable/inventario"
             android:title="Inventario" />
         <item
+            android:id="@+id/swipemenu"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Swipe Menu"/>
+        <item
             android:id="@+id/sabias_que"
             android:icon="@drawable/acercade"
             android:title="Sabias que?"/>

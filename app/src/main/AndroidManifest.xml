@@ -25,6 +25,11 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".WelcomeActivity" />
+        <activity android:name=".SwipeMenu.MainActivity"
+            android:label="@string/swipemenu"
+            android:parentActivityName=".PrincipalActivity">
+        </activity>
+
     </application>
 
 </manifest>

@@ -17,43 +17,6 @@
         <item>Cañaguate</item>
     </string-array>
 
-    <string-array name="arbol_contenido">
-        <item>Árbol mediano de tronco delgado, ramas irregulares cubiertas de hojas anchas,
-            acorazonadas, que crecen alternadamente y mantienen permanente follaje, flores blancas,
-            olorosas, que dan...</item>
-        <item>Árbol de madera durísima, tronco recto y delgado cuya principal característica
-            son los ramos enhiestos de bellísimas flores amarillo-dorado que echa durante el verano.
-            Antes de la floración permanece cubierto de hojas ovoidales de textura aterciopelada
-            y verde opaco, que se caen...</item>
-    </string-array>
-
-    <string-array name="arbol_contenido_completo">
-        <item>Árbol mediano de tronco delgado, ramas irregulares cubiertas de hojas anchas,
-            acorazonadas, que crecen alternadamente y mantienen permanente follaje, flores blancas,
-            olorosas, que dan como fruto racimos de pequeñas cápsulas de forma similar a las hojas,
-            erizada la superficie de múltiples y pequeños pelos ásperos al tacto y
-            llena de granos rojos. Estos granos tiñen de color rojo anaranjado los aceites y
-            especies que se utilizan en la cocina. No es la misma Bija de que habla el DRAE.
-            Se cultiva en los patios caseros donde su follaje y olorosas flores sirven de ornamento,
-            amén de la utilidad de las semillas. Se reproduce por semillas.</item>
-        <item>Árbol de madera durísima, tronco recto y delgado cuya principal característica
-            son los ramos enhiestos de bellísimas flores amarillo-dorado que echa durante el verano.
-            Antes de la floración permanece cubierto de hojas ovoidales de textura aterciopelada
-            y verde opaco, que se caen totalmente cuando aparecen las flores,
-            quedando vestido únicamente con los profusos ramos amarillos.
-            Su fruto es una vainilla larga y enroscada donde vienen las semillas.
-            Su madera se utiliza en la fabricación de muebles, puertas y ventanas.
-            Es el árbol insignia de Valledupar y le da su nombre al barrio más antiguo y tradicional;
-            sin embargo, los pocos ejemplares que se ven en la ciudad y sus alrededores han nacido
-            espontáneamente o sembrados por particulares ya que las dos avenidas que habían sido
-            reforestadas con esta especie por iniciativa privada, fueron inexplicablemente arrasadas
-            por el primer alcalde de elección popular que, en reemplazo de los hermosos cañaguates,
-            las sembró de mangos. Esta especie no es, como dice el DRAE el mismo guayacán.
-            Se reproduce por semillas. Pertenece a la familia de las bignoniáceas,
-            especie Tebebuiachrysantha y su nombre científico es: Tecoma spectabilis.
-            En algunas regiones le llaman chicala o chicalá y en Venezuela araguaney.</item>
-    </string-array>
-
 
     <string name="title_activity_welcome">Home Screen</string>
     <string name="next">Siguiente</string>
@@ -77,5 +40,10 @@
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
+
+    <string name="clientes">CLIENTES</string>
+    <string name="pedidos">PEDIDOS</string>
+    <string name="productos">PRODUCTOS</string>
+    <string name="swipemenu">Swipe Menú</string>
 
 </resources>

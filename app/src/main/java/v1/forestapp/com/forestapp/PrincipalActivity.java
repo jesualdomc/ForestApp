@@ -3,6 +3,7 @@ package v1.forestapp.com.forestapp;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -11,6 +12,8 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import v1.forestapp.com.forestapp.SwipeMenu.MainActivity;
 
 public class PrincipalActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -90,7 +93,10 @@ public class PrincipalActivity extends AppCompatActivity
             fragmento = new SabiasQueFragment();
             fragmentTransaction = true;
         }
-
+        else if (id== R.id.swipemenu){
+            Intent conceptIntent=new Intent(PrincipalActivity.this,MainActivity.class);
+            startActivity(conceptIntent);
+        }
         else if (id == R.id.mi_navegador) {
             fragmento = new NoticiaCardwFragment();
             fragmentTransaction = true;

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml:2:1-35:12
 	package
 		ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\ma
 	android:name
 		ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml:6:22-62
 application
-ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml:8:5-28:19
+ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml:8:5-33:19
 MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:24.2.0] C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:25:5-20
@@ -75,6 +75,14 @@ activity#v1.forestapp.com.forestapp.WelcomeActivity
 ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml:27:9-53
 	android:name
 		ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml:27:19-50
+activity#v1.forestapp.com.forestapp.SwipeMenu.MainActivity
+ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml:28:9-31:20
+	android:label
+		ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml:29:13-46
+	android:parentActivityName
+		ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml:30:13-60
+	android:name
+		ADDED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml:28:19-57
 uses-sdk
 INJECTED from C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [de.hdodenhof:circleimageview:2.0.0] C:\Users\Jesualdo Martinez\AndroidStudioProjects\ForestApp\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\AndroidManifest.xml:5:5-7:41

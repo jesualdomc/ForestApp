@@ -3,10 +3,10 @@ package v1.forestapp.com.forestapp;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.support.v4.app.Fragment;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -104,4 +104,7 @@ public class NuevoArbolDialogFragment extends android.app.DialogFragment {
         if(this.mi_scanner!= null)
             this.mi_scanner.startCamera();
     }
+
+
+
 }
